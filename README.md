@@ -43,4 +43,4 @@ for (int i = 0; i < IMAGE_WIDTH * IMAGE_HEIGHT; i++) {
     fprintf(memOutFile, "%02X\n", grayscaleData[i]);
 }
 ```
-이 코드는 모든 픽셀을 순회하며 `fprintf` 함수를 통해 각 픽셀의 밝기 값을 두 자리 16진수 형식으로 파일에 순차적으로 씁니다.
+이 코드는 모든 픽셀을 순회하며 `fprintf` 함수를 통해 각 픽셀의 밝기 값을 두 자리 16진수 형식으로 파일에 순차적으로 출력.
